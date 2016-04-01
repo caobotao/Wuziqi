@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="panel_background" format="reference"/>
+    <attr name="panel_line_color" format="color"/>
+    <attr name="white_piece_img" format="reference"/>
+    <attr name="black_piece_img" format="reference"/>
+    <attr name="max_count_line" format="integer"/>
+    <attr name="max_win_count_piece" format="integer"/>
+
+    <declare-styleable name="WuziqiPanel">
+        <attr name="panel_background"/>
+        <attr name="panel_line_color"/>
+        <attr name="white_piece_img"/>
+        <attr name="black_piece_img"/>
+        <attr name="max_count_line"/>
+        <attr name="max_win_count_piece"/>
+    </declare-styleable>
+</resources>

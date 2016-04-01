@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wzq="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    tools:context="wuziqi.cbt.com.wuziqi.MainActivity">
+
+    <!-- 可以在自定义View中使用自定义的属性 此处设置最大行列格子数为10,连续相邻6个同棋游戏结束-->
+   <wuziqi.cbt.com.wuziqi.WuziqiPanel
+       android:id="@+id/id_wuziqi"
+       android:layout_centerInParent="true"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       wzq:panel_background="@mipmap/panel_bg"
+       wzq:panel_line_color="#C00"
+       wzq:white_piece_img="@mipmap/stone_w2"
+       wzq:black_piece_img="@mipmap/black_p"
+       wzq:max_count_line="11"
+       wzq:max_win_count_piece="6"/>
+</RelativeLayout>
